@@ -17,7 +17,7 @@ public class e4Application implements ApplicationConfiguration {
 
     public void configure(Application application) {
         Map<String, String> properties = new HashMap<String, String>();
-        properties.put(WebClient.PAGE_TITLE, "Hello e4 RAP");
+        properties.put(WebClient.PAGE_TITLE, "Signle information for Eclipse RAP Applicaiton test");
         E4ApplicationConfig config = E4ApplicationConfig.create(E4XMI);
         E4EntryPointFactory entryPointFactory = new E4EntryPointFactory(config);
         application.addEntryPoint("/e4", entryPointFactory, properties);

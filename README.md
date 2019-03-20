@@ -1,2 +1,2 @@
 # freeze
-Sample project
+Sample project base on the Java RAP application. 
